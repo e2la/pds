@@ -1,0 +1,45 @@
+:root {
+  /* Dark Matter */
+  --avatar-size: 32px;
+  --background-image: url('https://wallpapercave.com/wp/wp2003034.jpg');
+  /* --home-image: url('https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/apple/279/egg_1f95a.png'); */
+  --background-solid: hsl(var(--gs-0));
+  --background-solid-dark: hsl(var(--gs-00));
+  --background-solid-darker: hsl(var(--gs-00));
+  --accent: var(--or-3);
+  --accent-alt: var(--or-4);
+  --black: var(--gs-00);
+  --white: var(--gs-100);
+
+  /* BlurpleRecolor */
+  --accentcolor: var(--accent);
+	--accentcolor2: var(--accent-alt);
+	--linkcolor: var(--bl-6);
+	--dangercolor: var(--rd-6);
+
+  --accentcolor-hover:			  hsl(var(--accentcolor)) linear-gradient(0deg, hsl(var(--white) / 15%), hsl(var(--white) / 15%));
+	--accentcolor-active:			  hsl(var(--accentcolor)) linear-gradient(0deg, hsl(var(--white) / 30%), hsl(var(--white) / 30%));
+	--accentcolor2-hover:		  	hsl(var(--accentcolor2)) linear-gradient(0deg, hsl(var(--white) / 15%), hsl(var(--white) / 15%));
+	--accentcolor2-active:			hsl(var(--accentcolor2)) linear-gradient(0deg, hsl(var(--white) / 30%), hsl(var(--white) / 30%));
+	
+	--bdfdb-blurple:				hsl(var(--accentcolor)) !important;
+	--bd-blue:					  	hsl(var(--accentcolor)) !important;
+	--bd-blue-hover:				var(--accentcolor-hover) !important;
+	--bd-blue-active:				var(--accentcolor-active) !important;
+	--blurple:				  		hsl(var(--accentcolor)) !important;
+
+  /* Opacity Variables */
+  --heading-opacity: 100%;
+  --pretitle-opacity: 90%;
+  --subtitle-opacity: 70%;
+  --fineprint-opacity: 30%;
+
+  /* Status Colors*/
+  --status-online: hsl(var(--gn-4));
+  --status-idle: hsl(var(--yl-4));
+  --status-dnd: hsl(var(--rd-4));
+  --status-offline: hsl(var(--gs-4));
+  --status-streaming: hsl(var(--pr-4));
+  --status-invisible: hsl(var(--gs-8));
+  --status--phone: var(--status-online);
+}
